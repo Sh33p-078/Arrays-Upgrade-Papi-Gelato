@@ -32,7 +32,7 @@ function delen(arr1, arr2) {
     var result = [];
     for (var i = 0; i < arr1.length; i++) {
         var quotient = arr1[i] / arr2[i];
-        result.push(arr2[i] + " / " + arr1[i] + " = " + quotient);
+        result.push(arr1[i] + " / " + arr2[i] + " = " + quotient);
     }
     document.getElementById("delen").innerHTML = "<br>Delen: <br>" + result.join("<br>");
 }
